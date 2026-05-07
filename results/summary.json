@@ -1,0 +1,48 @@
+[
+  {
+    "dataset": "a1",
+    "config": {
+      "pop_size": 10,
+      "max_generations": 5,
+      "crossover_prob": 0.9,
+      "mutation_prob": 0.1,
+      "metric_space": "2D shared cost/satisfaction"
+    },
+    "nsga2_summary": {
+      "num_solutions_mean": 10.0,
+      "num_solutions_std": 0.0,
+      "hypervolume_mean": 0.5997267580165646,
+      "hypervolume_std": 0.0,
+      "spread_mean": 0.41755203678159825,
+      "spread_std": 0.0,
+      "spacing_mean": 0.010738733608307332,
+      "spacing_std": 0.0,
+      "time_mean": 0.002788543701171875,
+      "time_std": 0.0
+    },
+    "spea2_summary": {
+      "num_solutions_mean": 10.0,
+      "num_solutions_std": 0.0,
+      "hypervolume_mean": 0.5529617116666039,
+      "hypervolume_std": 0.0,
+      "spread_mean": 0.4929740159124909,
+      "spread_std": 0.0,
+      "spacing_mean": 0.015745787197001683,
+      "spacing_std": 0.0,
+      "time_mean": 0.0030498504638671875,
+      "time_std": 0.0
+    },
+    "uclm_nsga2_summary": {
+      "num_solutions_mean": 10.0,
+      "num_solutions_std": 0.0,
+      "hypervolume_mean": 0.6628134615611446,
+      "hypervolume_std": 0.0,
+      "spread_mean": 0.6235497420054249,
+      "spread_std": 0.0,
+      "spacing_mean": 0.01942141097969208,
+      "spacing_std": 0.0,
+      "time_mean": 0.00485682487487793,
+      "time_std": 0.0
+    }
+  }
+]
